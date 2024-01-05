@@ -19,6 +19,8 @@
       .then(data => {
         // Manipula los datos según sea necesario antes de enviarlos de vuelta a la aplicación
         console.log('Datos de la API:', data);
+        console.log(response);
+        return data;
       })
       .catch(error => console.error('Error al obtener datos desde la API:', error));
   </script>
